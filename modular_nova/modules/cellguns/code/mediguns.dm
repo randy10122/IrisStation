@@ -116,10 +116,10 @@
 
 /obj/item/storage/briefcase/medicalgunset/cmo/PopulateContents()
 	new /obj/item/gun/energy/cell_loaded/medigun/cmo(src)
-	new /obj/item/weaponcell/medical/brute(src)
+	/* new /obj/item/weaponcell/medical/brute(src) // IRIS REMOVAL - Flat healing medicells
 	new /obj/item/weaponcell/medical/burn(src)
 	new /obj/item/weaponcell/medical/toxin(src)
-	new /obj/item/book/manual/wiki/mediguns(src)
+	new /obj/item/book/manual/wiki/mediguns(src) */ // IRIS REMOVAL END
 
 /*
 * Medigun Cells - Spritework is done by Arctaisia!

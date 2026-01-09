@@ -96,17 +96,17 @@
 /////////////////////////Biotech/////////////////////////
 
 /datum/techweb_node/medbay_equip_adv/New()
-	design_ids += list(
+	design_ids += list( // IRIS REMOVAL - Flat heal medicells
 		"monkey_helmet",
-		"brute2medicell",
+		/* "brute2medicell",
 		"burn2medicell",
 		"toxin2medicell",
-		"oxy2medicell",
+		"oxy2medicell", */
 		"relocatemedicell",
 		"tempmedicell",
 		"bodymedicell",
-		"clotmedicell",
-	)
+		// "clotmedicell",
+	) // IRIS REMOVAL END
 	return ..()
 
 /////////////////////////EMP tech/////////////////////////
@@ -234,6 +234,9 @@
 
 ////////////////////////Alien technology////////////////////////
 
+// IRIS REMOVAL - Flat heal medicells
+
+/*
 /datum/techweb_node/alien_surgery/New()
 	design_ids += list(
 		"brute3medicell",
@@ -242,6 +245,9 @@
 		"toxin3medicell",
 	)
 	return ..()
+*/
+
+ // IRIS REMOVAL END
 
 /////////////////////////engineering tech/////////////////////////
 
