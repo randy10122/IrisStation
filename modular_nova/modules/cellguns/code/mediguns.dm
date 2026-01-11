@@ -116,7 +116,7 @@
 
 /obj/item/storage/briefcase/medicalgunset/cmo/PopulateContents()
 	new /obj/item/gun/energy/cell_loaded/medigun/cmo(src)
-	/* new /obj/item/weaponcell/medical/brute(src) // IRIS REMOVAL - Flat healing medicells
+	/* new /obj/item/weaponcell/medical/brute(src) // IRIS REMOVAL START - Flat heal medicells
 	new /obj/item/weaponcell/medical/burn(src)
 	new /obj/item/weaponcell/medical/toxin(src)  */ // IRIS REMOVAL END
 	new /obj/item/book/manual/wiki/mediguns(src)
